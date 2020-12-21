@@ -1,14 +1,14 @@
 
 import './App.css';
-import HookCounter from "./Components/HookCounter"
+import HookCounterEffect from "./Components/HookCounterUseEffect"
 import HookCounterOne from "./Components/HookCounterOne"
+import ClassCounter from "./Components/ClassCounter"
 function App() {
   return (
     <div className="App">
-      Hi there
-      <HookCounter/>
+      <ClassCounter/>
+      {/* <HookCounterEffect/> */}
       {/* <HookCounterOne/> */}
-
     </div>
   );
 }
